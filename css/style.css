@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+}
+
+.main_conatiner {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.nav_container {
+    /* border: 1px solid; */
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+#swiggy_logo {
+    width: 50px;
+}
+
+.col1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.loc_name_sec {
+    border-bottom: 3px solid;
+    font-weight: 600;
+}
+
+.col1_loc_sec>a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.loc_detail_sec {
+    color: gray;
+}
+
+.loc_arrow_sec {
+    font-size: 16px;
+}
+
+.col1_loc_sec:hover .loc_name_sec {
+    color: rgb(244, 101, 12);
+}
+
+.col2_flex {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bold>a {
+    font-weight: bold;
+    font-size: 16.5px;
+    color: #595858;
+    display: flex;
+    gap: 8px;
+    letter-spacing: 1px;
+}
+
+.bold>a:hover {
+    color: rgb(244, 101, 12);
+}
+
+.nav_offer_sec {
+    position: relative;
+}
+
+#new {
+    position: absolute;
+    top: -9px;
+    left: 62px;
+    font-size: 11px;
+    color: rgb(244, 101, 12);
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+li {
+    list-style: none;
+}
+
+/* section 2 carousel_container */
+
+.carousel_container {
+    background-color: rgb(23, 26, 41);
+    position: relative;
+}
+
+.carousel_sec {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    gap: 112px;
+    overflow-x: scroll;
+}
+
+.carousel_img>img {
+    width: 252px;
+    transition: 0.5s;
+}
+
+.carousel_img>img:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+}
+
+/* ::-webkit-scrollbar-track {
+    border: 1px solid;
+    border-color: white;
+} */
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+
+}
+
+.carousel_arrow_sec {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    position: absolute;
+    top: 40%;
+    right: 130px;
+}
+
+
+/* Sec 3 dish_title_sec */
+.dt_sec {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.dish_title_sec {
+    padding: 20px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total_count_restaurants>h2 {
+    font-size: 29px;
+}
+
+.filter_sec>ol {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+.color>a {
+    color: #595858;
+    font-size: 15px;
+}
+
+.color>a:hover {
+    color: initial;
+}
+
+.color1>a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.color1>a>span:hover {
+    color: rgb(244, 101, 12);
+}
+
+.color1>a>i {
+    color: rgb(244, 101, 12);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* Sec 4 dish_dynamic_sec */
+
+.dish_dynamic_sec {
+    /* border: 1px solid; */
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 18px; */
+}
+
+.col {
+    width: 25%;
+    height: 355px;
+    padding: 12px;
+}
+
+.col_card>a>img {
+    width: 100%;
+}
+
+.col_card>p {
+    margin-top: 5px;
+}
+
+.col_card {
+    padding: 10px;
+
+}
+
+/* .col_card:hover {
+    box-shadow: 0px 0px 10px #ccc;
+} */
+
+.flex_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+
+}
+
+.ratings {
+    border: 1px solid rgb(72, 196, 121);
+    padding: 4px;
+    background-color: rgb(72, 196, 121);
+    color: white;
+}
+
+hr {
+    margin: 10px 0px;
+}
+
+h2 {
+    font-size: 15px;
+    color: initial;
+    padding: 10px 0px 4px;
+}
+
+.col_card>a>p {
+    padding-bottom: 10px;
+    color: gray;
+    font-size: 13px;
+}
+
+.flex_div>a:nth-child(2)>span {
+    color: gray;
+}
+
+.quick_view>a {
+    text-transform: uppercase;
+    color: blue;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quick_view {
+    display: none;
+}
+
+.col:hover .quick_view {
+    display: block;
+}
+
+.col:hover {
+    box-shadow: 0px 0px 5px gray;
+}

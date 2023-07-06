@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.login_in_page {
+    background-color: rgb(240, 242, 245);
+}
+
+.main_container {
+    height: 100vh;
+    margin: auto;
+    width: 59%;
+    padding: 115px 0px 51px;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logoimg {
+    width: 348px;
+    /* height: 106px; */
+    margin-left: -28px;
+}
+
+.login_sec {
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.fb_describe_sec>h5 {
+    font-size: 28px;
+    line-height: 32px;
+    width: 539px;
+}
+
+.email_sec>input,
+.password_sec>input {
+    padding: 12px 16px;
+    font-size: 15px;
+    width: 364px;
+    border-radius: 5px;
+    outline-color: blue;
+    outline-width: 1px;
+    border-color: #a9a4a4;
+    border: 1px solid #dddfe2;
+}
+
+.login_sec>form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.login_btn {
+    margin-top: 5px;
+}
+
+.login_btn>button {
+    background-color: rgb(252, 121, 26);
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    font-family: inherit;
+    font-weight: 600;
+    color: white;
+    outline-color: black;
+}
+
+.forget_password_sec {
+    text-align: center;
+}
+
+.forget_password_sec>a {
+    text-decoration: none;
+}
+
+.forget_password_sec:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.create_new_acc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.create_new_acc>a {
+    font-weight: 600;
+    text-align: center;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 17px;
+}
+
+.createpage_sec {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.cs_bold {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.cs_bold:hover {
+    text-decoration: underline;
+}
